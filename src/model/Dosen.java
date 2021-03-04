@@ -1,6 +1,6 @@
 package model;
 
-import model.Matakuliah;
+// import model.Matakuliah;
 
 public class Dosen extends Person{
     private String nidn;
@@ -12,12 +12,17 @@ public class Dosen extends Person{
         this.nama = nama;
     }
 
-    public void lihatListMatakuliahPengampu(){
+    @Override
+    public void showProfil(){
+        
+    }
 
+    public void lihatListMatakuliahPengampu(){
+        System.out.println("Lihat List Matakuliah Pengampu");
     }
 
     public void tambahMatakuliahPengampu(Matakuliah matakuliah){
-
+        System.out.println("Tambah Matakuliah Pengampu");
     }
     
     public void setNidn(String nidn) {

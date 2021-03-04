@@ -14,6 +14,7 @@ public class Matakuliah {
     }
 
     public void setNamaMatakuliah(String namaMatakuliah){
+        this.namaMatakuliah = namaMatakuliah;
 
     }
 
