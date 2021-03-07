@@ -1,10 +1,12 @@
 package model;
 
-// import model.Matakuliah;
+import java.util.ArrayList;
+
+import model.Matakuliah;
 
 public class Dosen extends Person{
     private String nidn;
-    private Matakuliah listMatakuliahPengampu;
+    private ArrayList<Matakuliah> listMatakuliahPengampu;
     private Matakuliah matakuliahPengampu;
 
     public Dosen(String nidn, String nama){
@@ -19,6 +21,9 @@ public class Dosen extends Person{
 
     public void lihatListMatakuliahPengampu(){
         System.out.println("Lihat List Matakuliah Pengampu");
+        Matakuliah matakuliah;
+        matakuliah.getSks();
+        this.listMataKuliahPengampu = matakuliah.getSemester();
     }
 
     public void tambahMatakuliahPengampu(Matakuliah matakuliah){

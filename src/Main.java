@@ -1,17 +1,13 @@
-import model.Dosen;
-import model.KRS;
-import model.Mahasiswa;
-import model.Matakuliah;
-import model.Person;
-
 import java.util.ArrayList;
 
 public class Main {
 
     public static void main(String[] args) {
-        ArrayList<Matakuliah> matkul = new ArrayList<>();
+        ArrayList<String> matkul = new ArrayList<String>();
 
-        matkul.add("PPLOO", 2);
+        matkul.add("PLOO");
+
+        System.out.println(matkul);
     }
 
     

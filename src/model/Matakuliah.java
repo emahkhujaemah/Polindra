@@ -23,7 +23,7 @@ public class Matakuliah {
     }
 
     public void setSks(int sks){
-
+        this.sks = sks;
     }
 
     public int getSks(){
@@ -39,7 +39,7 @@ public class Matakuliah {
     }
 
     public void setPengampu(Dosen Pengampu){
-
+        this.pengampu = pengampu;
     }
 
     public Dosen getPengampu(){

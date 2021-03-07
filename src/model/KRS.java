@@ -1,10 +1,11 @@
 package model;
+package model.Matakuliah;
+import java.util.ArrayList;
 
-import model.Matakuliah;
 
 public class KRS {
     private String noKRS;
-    private Matakuliah paketMatakuliah;
+    private ArrayList<Matakuliah> paketMatakuliah;
 
     public KRS(String noKRS){
         this.noKRS = noKRS;
@@ -14,8 +15,8 @@ public class KRS {
 
     }
 
-    public Matakuliah showMatakuliah(){
-
+    public Matakuliah showMatakuliahKRS(){
+        paketMatakuliah.toString();
     }
 
     public void setNOKRS(String noKRS){

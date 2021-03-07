@@ -1,5 +1,5 @@
 package model;
-// import model.KRS;
+import model.KRS;
 
 public class Mahasiswa extends Person{
     private String nim;
@@ -7,7 +7,7 @@ public class Mahasiswa extends Person{
 
     public Mahasiswa(String nim, String nama){
         this.nim = nim;
-        this.nama = nama;
+        this.setNama(nama);
     }
 
     @Override
@@ -17,6 +17,7 @@ public class Mahasiswa extends Person{
 
     public void cetakKRS(){
         System.out.println("Cetak KRS");
+        krs.toString();
     }
 
     public void setNim(String nim){
@@ -33,6 +34,7 @@ public class Mahasiswa extends Person{
 
     public KRS getKRS(){
         return krs;
+        // krs.toString;
     }
 
 }
